@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=6.1.0
+Type=Application
+Name=NetLogo3D
+GenericName=NetLogo3D
+Comment=Multi-agent Programmable Modeling Environment
+Exec=/usr/bin/netlogo-6.1.0/NetLogo3D
+Categories=Development;Science;IDE;Simulation
+Icon=/usr/bin/netlogo-6.1.0/netlogo.png
+Terminal=false
+StartupNotify=true
+

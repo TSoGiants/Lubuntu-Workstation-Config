@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.01.0017
+Type=Application
+Name=Energia
+GenericName=Energia
+Comment=TI Microcontroller Prototyping IDE
+Exec=/usr/bin/energia-0101E0017/energia
+Categories=Development;Electronics;IDE;
+Icon=/usr/bin/energia-0101E0017/lib/energia_48.png
+Terminal=false
+StartupNotify=true
+
