@@ -105,12 +105,7 @@ sudo apt-get -y install libgmp-dev
 echo "All progamming environments installed. Cleaning up dependencies."
 sudo apt-get -y autoremove
 
-#########################
-# Configure User Accounts
-#########################
 
-echo "Removing App Armor"
-sudo apt-get -y remove apparmor
 
 ##############################
 # Configure Inputs and Display
@@ -123,14 +118,31 @@ sudo apt-get -y remove apparmor
 # Configure Desktop
 ###################
 
-sudo mv Lubuntu-Workstation-Config/wallpaper/tsog_wallpaper.png /usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.png
-wget http://www.tsogiants.org/mpw_files/mpw_wallpaper.jpg
-sudo mv mpw_wallpaper.jpg /usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.jpg
+sudo cp Lubuntu-Workstation-Config/wallpaper/tsog_wallpaper.png /usr/share/lubuntu/wallpapers/1804-lubuntu-default-wallpaper.png
+sudo cp Lubuntu-Workstation-Config/wallpaper/tsog_wallpaper.png /usr/share/lubuntu/wallpapers/1804-lubuntu-default-wallpaper-h.png
 
 
+#########################
+# Configure User Accounts
+#########################
+
+echo "Removing App Armor"
+sudo apt-get -y remove apparmor
+
+sudo adduser student
+
+# You will have to enter a password and (optionally) a name for this student user manually when prompted.
+
+##########
+# Clean Up
+##########
+
+sudo rm -rf Lubuntu-Workstation-Config
+
+echo "Cleaning up final dependencies."
+sudo apt-get -y autoremove
 
 
-
-
+echo "Configuration Complete. Please restart now for all changes to take effect."
 
 

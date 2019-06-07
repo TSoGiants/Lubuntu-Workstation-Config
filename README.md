@@ -15,6 +15,7 @@ This script may function for newer versions of Lubuntu, but it is recommended th
 1. Download [Lubuntu 19.04 x64](http://cdimage.ubuntu.com/lubuntu/releases/19.04/release/lubuntu-19.04-desktop-amd64.iso) (or the latest version if you are an experienced Linux user and are willing to modify the script as needed for compatibility).
 2. Perform a full install from the Lubuntu .iso file on the target computer. Be sure to set up an account with password to act as your root (administrator) account.
 3. Open a terminal (CTL+ALT+T) and clone this repository by typing: git clone https://github.com/TSoGiants/Lubuntu-Workstation-Config.git
-4. Run the bash script by typing: ./Lubuntu-Workstation-Config/init.sh
+4. Run the bash script by typing: sudo ./Lubuntu-Workstation-Config/init.sh
+4. The script will run for quite a while. The only prompt will be at the end when you must enter a password and (optionally) a name for the student user.
 
 
