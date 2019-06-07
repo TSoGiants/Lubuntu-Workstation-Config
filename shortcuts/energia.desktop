@@ -4,9 +4,9 @@ Type=Application
 Name=Energia
 GenericName=Energia
 Comment=TI Microcontroller Prototyping IDE
-Exec=/usr/bin/energia-0101E0017/energia
+Exec=/usr/bin/energia-1.8.7E21/energia
 Categories=Development;Electronics;IDE;
-Icon=/usr/bin/energia-0101E0017/lib/energia_48.png
+Icon=/usr/bin/energia-1.8.7E21/lib/icons/128x128/apps/energia.png
 Terminal=false
 StartupNotify=true
 

@@ -4,9 +4,9 @@ Type=Application
 Name=NetLogo
 GenericName=NetLogo
 Comment=Multi-agent Programmable Modeling Environment
-Exec=/usr/bin/netlogo-6.1.0/NetLogo
+Exec=/usr/bin/NetLogo-6.1.0/NetLogo
 Categories=Development;Science;IDE;Simulation
-Icon=/usr/bin/netlogo-6.1.0/netlogo.png
+Icon=/usr/bin/NetLogo-6.1.0/netlogo.png
 Terminal=false
 StartupNotify=true
 

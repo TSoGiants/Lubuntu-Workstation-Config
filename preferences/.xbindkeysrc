@@ -1,6 +1,0 @@
-"xbacklight -dec 10"
-Mod4 + F5
-
-"xbacklight -inc 10"
-Mod4 + F6
-
