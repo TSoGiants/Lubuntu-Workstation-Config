@@ -67,6 +67,9 @@ sudo apt-get -y install nodejs npm
 echo "Installing Spyder"
 sudo apt-get -y install spyder
 
+echo "Installing TKinter"
+sudo apt-get -y install python3-tk
+
 echo "Installing NetLogo"
 wget https://ccl.northwestern.edu/netlogo/6.1.0/NetLogo-6.1.0-64.tgz
 sudo tar -xzvf NetLogo-6.1.0-64.tgz
@@ -120,6 +123,19 @@ sudo apt-get -y autoremove
 
 sudo cp Lubuntu-Workstation-Config/wallpaper/tsog_wallpaper.png /usr/share/lubuntu/wallpapers/1804-lubuntu-default-wallpaper.png
 sudo cp Lubuntu-Workstation-Config/wallpaper/tsog_wallpaper.png /usr/share/lubuntu/wallpapers/1804-lubuntu-default-wallpaper-h.png
+
+###################
+# Configure Discord 
+###################
+
+echo "Installing Discord"
+sudo apt-get -y install snapd
+sudo snap install discord
+
+echo "Installing Discord Dependencies"
+sudo apt install libgconf-2-4 libappindicator1
+
+# You will have to enter a password and (optionally) a name for this student user manually when prompted.
 
 
 #########################
