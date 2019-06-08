@@ -18,4 +18,5 @@ This script may function for newer versions of Lubuntu, but it is recommended th
 4. Run the bash script by typing: sudo ./Lubuntu-Workstation-Config/init.sh
 4. The script will run for quite a while. The only prompt will be at the end when you must enter a password and (optionally) a name for the student user.
 
+This has been updated during a stream.
 
