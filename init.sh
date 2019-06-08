@@ -124,9 +124,9 @@ sudo apt-get -y autoremove
 sudo cp Lubuntu-Workstation-Config/wallpaper/tsog_wallpaper.png /usr/share/lubuntu/wallpapers/1804-lubuntu-default-wallpaper.png
 sudo cp Lubuntu-Workstation-Config/wallpaper/tsog_wallpaper.png /usr/share/lubuntu/wallpapers/1804-lubuntu-default-wallpaper-h.png
 
-#######################################
-# Configure TSoG.tv Collaboration Tools 
-#######################################
+###################
+# Configure Discord 
+###################
 
 echo "Installing Discord"
 sudo apt-get -y install snapd
@@ -134,13 +134,6 @@ sudo snap install discord
 
 echo "Installing Discord Dependencies"
 sudo apt install libgconf-2-4 libappindicator1
-
-echo "Installing Github Desktop"
-sudo snap install --beta github-desktop --classic
-
-echo "Installing Gnome Twitch Player"
-sudo snap install gnome-twitch
-
 
 # You will have to enter a password and (optionally) a name for this student user manually when prompted.
 
@@ -153,9 +146,6 @@ echo "Removing App Armor"
 sudo apt-get -y remove apparmor
 
 sudo adduser student
-
-# Grants serial port access.
-sudo usermod -a -G dialout $USER
 
 # You will have to enter a password and (optionally) a name for this student user manually when prompted.
 
