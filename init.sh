@@ -67,9 +67,6 @@ sudo apt-get -y install nodejs npm
 echo "Installing Spyder"
 sudo apt-get -y install spyder
 
-echo "Installing TKinter"
-sudo apt-get -y install python3-tk
-
 echo "Installing NetLogo"
 wget https://ccl.northwestern.edu/netlogo/6.1.0/NetLogo-6.1.0-64.tgz
 sudo tar -xzvf NetLogo-6.1.0-64.tgz
@@ -124,6 +121,7 @@ sudo apt-get -y autoremove
 sudo cp Lubuntu-Workstation-Config/wallpaper/tsog_wallpaper.png /usr/share/lubuntu/wallpapers/1804-lubuntu-default-wallpaper.png
 sudo cp Lubuntu-Workstation-Config/wallpaper/tsog_wallpaper.png /usr/share/lubuntu/wallpapers/1804-lubuntu-default-wallpaper-h.png
 
+<<<<<<< HEAD
 #######################################
 # Configure TSoG.tv Collaboration Tools 
 #######################################
@@ -144,6 +142,8 @@ sudo snap install gnome-twitch
 
 # You will have to enter a password and (optionally) a name for this student user manually when prompted.
 
+=======
+>>>>>>> parent of 4625c96... Added Discord and TKinter to init.sh
 
 #########################
 # Configure User Accounts
